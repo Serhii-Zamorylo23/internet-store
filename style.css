@@ -1,0 +1,47 @@
+.container{ 
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: saddlebrown;
+}
+.logo{
+    display: flex;
+    width: 147px;
+    height: 38.96px;
+    background: rgb(34, 178, 58);    
+    align-items: center;
+    justify-content: space-between;
+}
+.header_icon{
+    width:31.79px;
+}
+.logo>p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.searchpanel{
+    display: flex;
+    width: 582px;
+    height: 46px;
+    background: black;
+    margin-left: 120px;
+    
+}
+.input_search{
+    width: 100%;
+}
+.search_icons{
+    width: 55px;
+    height: 100%;
+    background: #7AC751;
+}
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
