@@ -28,20 +28,103 @@
     display: flex;
     width: 582px;
     height: 46px;
-    background: black;
+    background: rgb(226, 43, 43);
     margin-left: 120px;
-    
+    border-radius: 7px;
+    border: 2px solid #7AC751;
 }
 .input_search{
     width: 100%;
+    padding-left:25px ;
 }
 .search_icons{
+    display: flex;
     width: 55px;
     height: 100%;
+
+}
+.btnsearch{
+    cursor: pointer;
+    width: 100%;
+    background: #7AC751;;
+    border: none;
+   border-top-right-radius:4px;
+    
+}
+.header_btn{
+    display: flex;
+    margin-left: 200px;
+    width: 123px;
+    height: 26px;
+    background: red;
+}
+.categories{
+    width: 123px;
+    height: 45px;
+    border: none;
+}
+.searchicon{
+    height: 16px;
+    width: 16px;
+
+}
+.basket{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.shop{
+    position: relative;
+    display: flex;
+    background: none;
+    border: none;
+}
+.btn_circle{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    top: 1px;
+    left: 24px;
     background: #7AC751;
+    color: #fff;
+    border-radius: 50%;
+}
+.btn_circle>p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 7px;
+}
+.icon_notification{
+    Width:18.42px;
+    Height:100%;
+    cursor: pointer;
+}
+.icon_account{
+    Width:18.42px;
+    Height:100%;
+    cursor: pointer;
+}
+.Notification{
+    width: 13px;
+    height: 21px;
+}
+.notification{
+    margin-left: 19px;
+    background: none;
+    border: none;
+}
+.account{
+    width:20.31px;
+    Height:24px;
+    margin-left: 19px;
+    background: none;
+    border: none;
+    
 }
 /*
 font-family: 'DM Sans', sans-serif;
 font-family: 'Mulish', sans-serif;
-font-family: 'Rubik', sans-serif;
+
 */
