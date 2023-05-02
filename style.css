@@ -7,6 +7,7 @@
     align-items: center;
     height: 50px;
     background: saddlebrown;
+    margin-bottom: 25px;
 }
 .logo{
     display: flex;
@@ -120,10 +121,74 @@
     Height:24px;
     margin-left: 19px;
     background: none;
-    border: none;
-    
+    border: none;    
 }
+.navigation{
+    display: flex;
+    width: 1170px;
+    height: 67px;
+    margin-top: 25px;
+    margin: 0 auto;
+    background: #1302f9;
+}
+.catalog{
+    display: flex;
+    width: 260px;
+    height: 67px;
+    background: yellow;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.iconcatalog{
+    Width:24px;
+    Height:24px;
+    align-items: center;
+}
+.catalog>p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 23px;
+    color: #fff;
+}
+.nav-bar{
+    display: flex;
+    margin-left: 82px;
+    margin-top: 25px;
+    width: 506px;
+    height: 17px;
+    background: chocolate;
+
+}
+.link{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 65px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.list{
+    width: 89%;
+    background: saddlebrown;
+    padding-left:29px;
+}
+li{
+    height:41px;
+    background: skyblue;
+    padding-top: 10px;
+}
+.a{
+    width: 100%;
+    height: 41px;
+    background: chartreuse;
+}
+
 /*
+font-family: 'Rubik', sans-serif;
 font-family: 'DM Sans', sans-serif;
 font-family: 'Mulish', sans-serif;
 
