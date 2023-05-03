@@ -173,7 +173,7 @@
     text-decoration: none;
 }
 .list{
-    display: flex;
+    display: none;
     width: 89%;
     height: 41px;
     background:rgba(247, 248, 250, 1);
@@ -182,7 +182,9 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 14px;
-
+}
+.catalog:focus+.list{
+    display: flex;
 }
 li{
     height:41px;
@@ -198,6 +200,114 @@ li{
 }
 .All{
     padding-top: 10px;
+}
+.baner{
+    display: flex;
+    width:899px;
+    height: 465px;
+    margin-left: 23%;
+    height: 465px;
+    background: saddlebrown;
+}
+.imgbaner{
+    width:100%;
+    height: 100%;
+}
+.chair{
+    position: absolute;
+    margin-left: 381px;
+    margin-top: 36px;
+}
+.imgbaner{
+    position: relative;
+}
+.Top{
+    position: absolute;
+    margin-top: 73px;
+    margin-left: 47px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color:rgba(122, 199, 81, 1);
+}
+.maketing{
+    width: 318px;
+    position: absolute;
+    margin-top: 104px;
+    margin-left: 47px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.frame{
+    width: 177px;
+    height: 11px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 184px;
+}
+.discount{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    position: absolute;
+    margin-top: 227px;
+    margin-left: 47px;
+    color: rgba(81, 81, 81, 0.71);
+}
+.buy{
+    position: absolute;
+    width: 129px;
+    height: 40px;
+    margin-top: 287px;
+    margin-left: 47px;
+    border-radius: 8px;
+    background:rgba(122, 199, 81, 1);
+    border: none;
+}
+.buy>p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.slider{
+    display: flex;
+    position: absolute;
+    width: 105px;
+    height: 12px;
+    margin-left: 400px;
+    margin-top: 407px;
+    column-gap: 15px;
+}
+.cirle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(122, 199, 81, 0.29);
+}
+.regtanle{
+    width: 24px;
+    height: 9px;
+    background: #7AC751;
+    border-radius: 666px;
+}
+.Advantages{
+    display: flex;
+    width: 100%;
+    height: 58px;
+    background: slateblue;
+    margin-top: 81px;
+}
+.free{
+    width: 58px;
+}
+.shipping{
+    margin-left: 15px;
+    margin-top: 4px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 /*
 font-family: 'Rubik', sans-serif;
