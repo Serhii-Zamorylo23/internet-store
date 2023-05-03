@@ -302,12 +302,85 @@ li{
 .free{
     width: 58px;
 }
-.shipping{
+.shap{
+    display: flex;
+    width: 133px;
+    background: saddlebrown;
+    margin-top: 6px;
     margin-left: 15px;
-    margin-top: 4px;
+    flex-wrap: wrap;
+}
+.shipping{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 20px;
+}
+.sub-shipping{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(81, 81, 81, 0.71);
+}
+.gift{
+    margin-left: 107px;
+    width: 58px;
+}
+.Gift{
+    width: 151px;
+    background: seagreen;
+    margin-top: 6px
+}
+.giftcard{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.getcard{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(81, 81, 81, 0.71);
+    margin-top: 8px;
+}
+.wallet{
+    margin-left: 107px;
+    width: 58px;
+    display: flex;
+}
+.Wallet{
+    margin-top: 6px;
+    background: rgb(119, 201, 119);
+}
+.payment{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sub-payment{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(81, 81, 81, 0.71);
+    margin-top: 8px;
+}
+.supportsvg{
+    width:53.12px;
+    margin-left: 109.44px;
+}
+.support{
+    background: rgb(90, 205, 115);
+    margin-top: 6px;
+}
+.Support{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sub-support{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(81, 81, 81, 0.71);
 }
 /*
 font-family: 'Rubik', sans-serif;
