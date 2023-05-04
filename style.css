@@ -381,7 +381,194 @@ li{
     font-weight: 400;
     font-size: 14px;
     color:rgba(81, 81, 81, 0.71);
+    margin-top: 8px;
 }
+.imgright{
+    display: flex;
+    position: relative;
+    Width:669px;
+    Height:511px;
+    background: salmon;
+}
+.offer{
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+}
+.textmask+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+}
+.starting{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    color:rgba(122, 199, 81, 1);
+}
+.textmask{
+    position: absolute;
+    padding-top: 49px;
+    padding-left: 31px;
+}
+.furniture{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color:rgba(85, 85, 85, 1);
+}
+
+.more{
+    margin-top: 13px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(117, 117, 117, 1);
+}
+.arrow{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 19px;
+    width:11px;
+    height: 9px;
+}
+.group{
+    display: flex;
+    height: 26px;
+    cursor: pointer;
+    width: 94.96px;
+}
+.imgleft{
+    width: 100%;
+    padding-left: 18.96px;
+
+}
+.top{
+    position: relative;
+    display: flex;
+}
+.texttop{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 24.04px;
+}
+.geometric{
+    color:rgba(85, 85, 85, 1);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.sub-giometric{
+    margin-top: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:rgba(122, 199, 81, 1);
+}
+.bottom{
+    margin-top: 17px;
+    display: flex;
+}
+.textbottom{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 24.04px;
+}
+.sofa{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.sub-sofa{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    color:rgba(122, 199, 81, 1);
+}
+.trendeng{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background: black;
+    margin-top: 120px;
+    column-gap: 30px;
+    row-gap: 45px;
+}
+.class1{
+    width: 270px;
+    height: 387px;
+    background: firebrick;
+}
+.class2{
+    width: 270px;
+    height: 387px;
+    background: rgb(34, 178, 53);
+}
+.class3{
+    width: 270px;
+    height: 387px;
+    background: rgb(128, 34, 178);
+}
+.class4{
+    width: 270px;
+    height: 387px;
+    background: rgb(178, 140, 34);
+}
+.class5{
+    width: 270px;
+    height: 387px;
+    background: rgb(34, 70, 178);
+}
+.class6{
+    width: 270px;
+    height: 387px;
+    background: rgb(123, 34, 178);
+}
+.class7{
+    width: 270px;
+    height: 387px;
+    background: rgb(178, 34, 123);
+}
+.class8{
+    width: 270px;
+    height: 387px;
+    background: rgb(15, 251, 15);
+}
+.chair1{
+    width: 100%;
+}
+.type{
+    margin-top: 15.11px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(117, 117, 117, 0.71);
+}
+.name{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 9px;
+}
+.price{
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 8px;
+    color:rgba(122, 199, 81, 1);
+    Width:46px
+}
+.review{
+    position: absolute;
+    margin-left: 208px;
+    Width:66.94px;
+    height:9.58px;
+}
+
 /*
 font-family: 'Rubik', sans-serif;
 font-family: 'DM Sans', sans-serif;
