@@ -124,6 +124,7 @@
     border: none;    
 }
 .navigation{
+    position: relative;
     display: flex;
     width: 1170px;
     height: 67px;
@@ -159,17 +160,19 @@
     display: flex;
     margin-left: 82px;
     margin-top: 25px;
-    width: 506px;
     height: 17px;
     background: chocolate;
-
+}
+.nav-link{
+    display: flex;
+    width: 100%;
+    column-gap: 65px;
+    text-align: center;
 }
 .link{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    margin-right: 65px;
-    justify-content: space-between;
     text-decoration: none;
 }
 .list{
@@ -182,6 +185,25 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 14px;
+}
+.sub-navBtn{ 
+    width: 260px;
+    height: 100%;
+}
+.sub-nav{ 
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    position: absolute;
+    transform: translateY(67px);
+    list-style: none;
+    width: 260px;
+    background: red;
+}
+.sub-nav-item{
+    height: 31px;
+    border-bottom: 0.8px solid #E3E3E3;
+
 }
 .catalog:focus+.list{
     display: flex;
