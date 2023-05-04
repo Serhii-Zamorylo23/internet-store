@@ -616,6 +616,23 @@ li{
     width: 50px;
     height: 21px;
 }
+.feature{
+    position: absolute;
+    width: 38.85px;
+    height: 181.83px;
+    background: violet;
+    margin-top: 105px;
+    margin-left: 232px;
+}
+.elipse{
+    display: flex;
+    width: 38.85px;
+    height: 38.89px;
+    background: forestgreen;
+    border-radius: 50%;
+    row-gap:8.75px;
+
+}
 /*
 font-family: 'Rubik', sans-serif;
 font-family: 'DM Sans', sans-serif;
