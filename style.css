@@ -6,14 +6,12 @@
     display: flex;
     align-items: center;
     height: 50px;
-    background: saddlebrown;
     margin-bottom: 25px;
 }
 .logo{
     display: flex;
     width: 147px;
     height: 38.96px;
-    background: rgb(34, 178, 58);    
     align-items: center;
     justify-content: space-between;
 }
@@ -29,7 +27,6 @@
     display: flex;
     width: 582px;
     height: 46px;
-    background: rgb(226, 43, 43);
     margin-left: 120px;
     border-radius: 7px;
     border: 2px solid #7AC751;
@@ -57,7 +54,6 @@
     margin-left: 200px;
     width: 123px;
     height: 26px;
-    background: red;
 }
 .categories{
     width: 123px;
@@ -108,8 +104,9 @@
     cursor: pointer;
 }
 .Notification{
-    width: 13px;
-    height: 21px;
+    fill: none;
+    width: 26;
+    height: 26px;
 }
 .notification{
     margin-left: 19px;
@@ -117,9 +114,10 @@
     border: none;
 }
 .account{
-    width:20.31px;
+    Width:20.31px;
     Height:24px;
-    margin-left: 19px;
+    margin-left: 13px;
+    margin-top: 3px;
     background: none;
     border: none;    
 }
@@ -130,14 +128,12 @@
     height: 67px;
     margin-top: 25px;
     margin: 0 auto;
-    background: #1302f9;
 }
 .catalog{
     cursor: pointer;
     display: flex;
     width: 260px;
     height: 67px;
-    background: yellow;
     border: none;
     display: flex;
     align-items: center;
@@ -161,7 +157,6 @@
     margin-left: 82px;
     margin-top: 25px;
     height: 17px;
-    background: chocolate;
 }
 .nav-link{
     display: flex;
@@ -238,7 +233,6 @@ li{
     height: 465px;
     margin-left: 23%;
     height: 465px;
-    background: saddlebrown;
 }
 .imgbaner{
     width:100%;
@@ -327,7 +321,7 @@ li{
     display: flex;
     width: 100%;
     height: 58px;
-    background: slateblue;
+
     margin-top: 81px;
 }
 .free{
@@ -336,7 +330,6 @@ li{
 .shap{
     display: flex;
     width: 133px;
-    background: saddlebrown;
     margin-top: 6px;
     margin-left: 15px;
     flex-wrap: wrap;
@@ -358,7 +351,6 @@ li{
 }
 .Gift{
     width: 151px;
-    background: seagreen;
     margin-top: 6px
 }
 .giftcard{
@@ -380,7 +372,6 @@ li{
 }
 .Wallet{
     margin-top: 6px;
-    background: rgb(119, 201, 119);
 }
 .payment{
     font-family: 'Rubik', sans-serif;
@@ -399,7 +390,7 @@ li{
     margin-left: 109.44px;
 }
 .support{
-    background: rgb(90, 205, 115);
+
     margin-top: 6px;
 }
 .Support{
@@ -419,7 +410,6 @@ li{
     position: relative;
     Width:669px;
     Height:511px;
-    background: salmon;
 }
 .offer{
     display: flex;
@@ -523,49 +513,43 @@ li{
     flex-wrap: wrap;
     display: flex;
     width: 100%;
-    background: black;
     margin-top: 120px;
     column-gap: 30px;
     row-gap: 45px;
 }
 .class1{
     width: 270px;
-    background: firebrick;
 }
 .class2{
     width: 270px;
     height: 387px;
-    background: rgb(34, 178, 53);
 }
 .class3{
     width: 270px;
     height: 387px;
-    background: rgb(128, 34, 178);
+}
+.tren{
+    display: block;
 }
 .class4{
     width: 270px;
     height: 387px;
-    background: rgb(178, 140, 34);
 }
 .class5{
     width: 270px;
     height: 387px;
-    background: rgb(34, 70, 178);
 }
 .class6{
     width: 270px;
     height: 387px;
-    background: rgb(123, 34, 178);
 }
 .class7{
     width: 270px;
     height: 387px;
-    background: rgb(178, 34, 123);
 }
 .class8{
     width: 270px;
     height: 387px;
-    background: rgb(15, 251, 15);
 }
 .chair1{
     width: 100%;
@@ -606,32 +590,204 @@ li{
     height: 21px;
 }
 .star{
+    position: absolute;
     width: 66.96px;
     height: 9.58px;
     margin-top: 12px;
-    margin-left: 168px;
+    margin-left: 208px;
     display: flex;
 }
-.oldp{
-    width: 50px;
-    height: 21px;
-}
+
 .feature{
     position: absolute;
-    width: 38.85px;
-    height: 181.83px;
-    background: violet;
-    margin-top: 105px;
-    margin-left: 232px;
+    margin-top: 83.59px;
+    margin-left: 231px;
 }
 .elipse{
+    cursor: pointer;
     display: flex;
     width: 38.85px;
-    height: 38.89px;
-    background: forestgreen;
+    height: 38.89px;;
+    background: #fff;
     border-radius: 50%;
-    row-gap:8.75px;
-
+    margin-top: 8.75px;
+    align-items: center;
+    border: none;
+}
+.Oldprice{
+    color: #CCCCCC;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-left: 7px;
+    text-decoration-line:line-through;
+}
+.revision{
+    position: relative;
+}
+.svgrevision{
+    Width:19.43px;
+    Height:15.14px;
+    margin: 0 auto;
+}
+.svgshop{
+    Width:19.42px;
+    Height:19.45px;
+}
+.new{
+    position: absolute;
+    width: 44.68px;
+    height: 20.42px;
+    border-bottom-right-radius: 5px;
+}
+.text{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.sale{
+    position: absolute;
+    width: 44.68px;
+    height: 20.42px;
+    background:rgba(122, 199, 81, 1);
+    border-bottom-right-radius: 5px;
+}
+.page{
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+.pageActive{
+    width: 24px;
+    height: 24px;
+}
+.pagediv{
+    display: flex;
+    margin: 0 auto;
+    column-gap: 14px;
+}
+.offe{
+    margin-top: 99px;
+    width: 100%;
+}
+.off{
+    width: 100%;
+    text-align: center;
+}
+.textoffer{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.offercontent{
+    display: flex;
+    margin-top: 60px;
+    column-gap:30px ;
+}
+.containerLeft{
+    display: flex;
+    width: 50%;
+    height: 249px;
+    background: darkkhaki;
+    position: relative;
+}
+.containerRight{
+    display: flex;
+    width: 50%;
+    height: 249px;
+    background: rgb(0, 30, 220);
+}
+.room{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 24px;
+}
+.sub-room{
+    position: absolute;
+    width: 227px;
+    margin-top: 67px;
+    margin-left: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color:rgba(117, 117, 117, 1);
+}
+.priceRppm{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:rgba(122, 199, 81, 1);
+}
+.oldpriceRoom{
+    position: absolute;
+    margin-top: 128px;
+    margin-left: 77px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:rgba(204, 204, 204, 1);
+    text-decoration-line:line-through;
+}
+.btnRoom{
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    background: rgba(122, 199, 81, 1);
+    border: none;
+    margin-top: 123px;
+    margin-left: 156px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+}
+.containerElipse{
+    position: absolute;
+    display: flex;
+    width: 214px;
+    height: 40px;
+    margin-top: 180px;
+    margin-left: 24px;
+    column-gap: 20px;
+}
+.elipseRoom{
+    width: 40px;
+    height: 40px;
+    background: greenyellow;
+    border-radius: 50%;
+}
+.numeric{
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sub-numeric{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+    padding-left: 10px;
+}
+.Catagories{
+    position: absolute;
+    margin-left: 416px;
+    margin-top: 15px;
+}
+.inputIcon{
+    position: absolute;
+    Width:4.76px;
+    Height:7.71px;
+    margin-left: 495px;
+    margin-top: 20px;
 }
 /*
 font-family: 'Rubik', sans-serif;
