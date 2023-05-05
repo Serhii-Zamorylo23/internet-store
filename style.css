@@ -184,9 +184,10 @@
 .sub-navBtn{
     cursor: pointer;
     display: flex;
+    align-items: center;
     width: 260px;
     height: 100%;
-    padding-top: 22px;
+    color: #fff;
     padding-left: 30px;
     background: rgba(122, 199, 81, 1);
     border: none;
