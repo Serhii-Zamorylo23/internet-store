@@ -234,6 +234,7 @@ li{
     height: 465px;
     margin-left: 23%;
     height: 465px;
+    background: salmon;
 }
 .imgbaner{
     width:100%;
@@ -299,7 +300,6 @@ li{
 }
 .slider{
     display: flex;
-    position: absolute;
     width: 105px;
     height: 12px;
     margin-left: 400px;
