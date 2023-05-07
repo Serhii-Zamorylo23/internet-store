@@ -228,83 +228,94 @@ li{
 .All{
     padding-top: 10px;
 }
-.baner{
+.banerContainer{
     display: flex;
     width:899px;
-    height: 465px;
+    height: 439px;
     margin-left: 23%;
     height: 465px;
-    background: salmon;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    padding-top: 34px;
+    padding-left: 47px;
+    padding-right: 39px;
+    justify-content: center;
 }
-.imgbaner{
-    width:100%;
-    height: 100%;
-}
-.chair{
-    position: absolute;
-    margin-left: 381px;
-    margin-top: 36px;
-}
-.imgbaner{
-    position: relative;
+.banerleft{
+    padding-top: 40px;
+    width: 318px;
+    align-items: center;
 }
 .Top{
-    position: absolute;
-    margin-top: 73px;
-    margin-left: 47px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 22px;
     color:rgba(122, 199, 81, 1);
 }
-.maketing{
-    width: 318px;
-    position: absolute;
-    margin-top: 104px;
-    margin-left: 47px;
+.namebaner{
+    padding-top: 8px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 40px;
 }
-.frame{
-    width: 177px;
-    height: 11px;
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 184px;
+.imgframe{
+    width:177px;
+    margin-left: 140px;
 }
-.discount{
+.sell{
+    padding-top: 27px;
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     font-size: 27px;
-    position: absolute;
-    margin-top: 227px;
-    margin-left: 47px;
-    color: rgba(81, 81, 81, 0.71);
+    color:rgba(81, 81, 81, 0.71)
 }
-.buy{
-    position: absolute;
+.btnbaner{
     width: 129px;
     height: 40px;
-    margin-top: 287px;
-    margin-left: 47px;
-    border-radius: 8px;
     background:rgba(122, 199, 81, 1);
+    margin-top: 35px;
     border: none;
+    border-radius:5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.banercenter{
+    width: 374px;
+}
+.banerright{
+    display: flex;
+    width: 98px;
+    flex-direction: column;
+    row-gap: 25.53px;
+    margin-top: 20px;
+}
+.smallpicture{
+    width: 100%;
+    height: 91.47px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.56) 100%);  
+}
+.slider{
+    display: block;
+    height: 53px;
+    margin: 5px auto;
+}
+.priceSlider{
+    text-align: center;
+}
+.nameproductslider{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 7px;
+    text-align: center;
 }
 .buy>p{
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: white;
-}
-.slider{
-    display: flex;
-    width: 105px;
-    height: 12px;
-    margin-left: 400px;
-    margin-top: 407px;
-    column-gap: 15px;
 }
 .cirle{
     width: 12px;
@@ -524,6 +535,7 @@ li{
 .class2{
     width: 270px;
     height: 387px;
+    overflow: hidden;
 }
 .class3{
     width: 270px;
@@ -603,6 +615,12 @@ li{
     position: absolute;
     margin-top: 83.59px;
     margin-left: 231px;
+    transition-duration: 1s;
+    transform: translateX(100%);
+}
+.class2:hover>.feature{
+    transition-duration: 0.8s;
+    transform: translateX(0);
 }
 .elipse{
     cursor: pointer;
@@ -640,6 +658,7 @@ li{
     width: 44.68px;
     height: 20.42px;
     border-bottom-right-radius: 5px;
+    background:rgba(0, 183, 241, 1);
 }
 .text{
     font-family: 'Mulish', sans-serif;
