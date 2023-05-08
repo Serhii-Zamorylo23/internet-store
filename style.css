@@ -366,11 +366,6 @@ li{
     width: 151px;
     margin-top: 6px
 }
-.giftcard{
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-}
 .getcard{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -520,6 +515,31 @@ li{
     font-weight: 600;
     font-size: 20px;
     margin-top: 10px;
+    color:rgba(122, 199, 81, 1);
+}
+.titletrendeng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.nav-trending{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    padding-top: 45px;
+}
+.sub-trending{
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:rgba(194, 194, 194, 1)
+}
+.activetranding{
     color:rgba(122, 199, 81, 1);
 }
 .trendeng{
@@ -829,6 +849,61 @@ span{
     height: 12px;
     column-gap: 15px;
     align-items: center;
+}
+.more-products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 45px;
+    background: sienna;
+}
+.card{
+    width: 270px;
+    height: 387px;
+    background: firebrick;
+}
+.type-card{
+    padding-top: 15.18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.name-card{
+    padding-top: 9px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.price-text{
+    display:flex;
+    column-gap: 7px;
+}
+.new-price{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(122, 199, 81, 1);
+}
+.old-price{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration-line: line-through;
+    color:#CCCCCC;;
+}
+.prise-conteiner{
+    display: flex;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+.stars{
+    display: flex;
+    column-gap: 3.58px;
+}
+.starActive{
+    Width:10.53px;
+    Height:9.58px
 }
 /*
 font-family: 'Rubik', sans-serif;
