@@ -986,7 +986,6 @@ span{
 .page-more-products-container{
     width: 570px;
     height: 44px;
-    background: hotpink;
     margin-left: 600px;
     margin-top: 50px;
     justify-content: space-between;
@@ -1016,7 +1015,6 @@ span{
     display: flex;
     width: 266px;
     height: 29px;
-    background: red;
     align-items: center;
     justify-content: space-between;
 }
@@ -1036,14 +1034,37 @@ span{
     padding-left: 19px;
 }
 .arrow-more{
+    display: flex;
     width: 58px;
     height: 29px;
-    background: darkblue;
+    background:rgba(122, 199, 81, 1);
+    column-gap: 2px;
 }
 .arrow-more-right{
+    cursor: pointer;
+    display: flex;
     height: 100%;
     width: 50%;
-    border:none;
+    background:none;
+    align-items: center;
+    border: none;
+}
+.arrow-more-left{
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background: none;
+    align-items: center;
+    border: none;
+}
+.arrow-right{
+    Width:11.1px;
+    Height:6.5px;
+}
+.arrow-left{
+    Width:11.1px;
+    Height:6.5px;
 }
 /*
 font-family: 'Rubik', sans-serif;
