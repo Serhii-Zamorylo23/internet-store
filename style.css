@@ -850,24 +850,33 @@ span{
     column-gap: 15px;
     align-items: center;
 }
+.ourProducts{
+    padding-top: 120px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
 .more-products{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     column-gap: 30px;
     row-gap: 45px;
-    background: sienna;
+
+    margin-top: 73px;
 }
 .card{
+    position: relative;
     width: 270px;
-    height: 387px;
-    background: firebrick;
+    overflow: hidden;
 }
 .type-card{
     padding-top: 15.18px;
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     font-size: 14px;
+    color:rgba(117, 117, 117, 0.71);
 }
 .name-card{
     padding-top: 9px;
@@ -904,6 +913,137 @@ span{
 .starActive{
     Width:10.53px;
     Height:9.58px
+}
+.informationdiv{
+    position:absolute;
+    Width:44.68px;
+    Height:20.42px;
+    border-bottom-right-radius:5px;
+    margin-left: 1px;
+    color: white;
+    text-align: center;
+}
+.sale-card{
+    text-align: center;
+}
+.sal{
+    background: rgba(122, 199, 81, 1);
+}
+.Hoverfeature{
+    position: absolute;
+    margin-top: 83.59px;
+    margin-left: 231px;
+    transition-duration: 1s;
+    transform: translateX(100%);
+}
+.card:hover>.Hoverfeature{
+    transform: translateX(0);
+    transition-duration: 0.8s;
+}
+.Elipse{
+    
+    cursor: pointer;
+    display: flex;
+    width: 38.85px;
+    height: 38.89px;;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 8.75px;
+    align-items: center;
+    border: none;
+}
+.Elipse:hover{
+    background:rgba(122, 199, 81, 1);
+    transition-duration: 0.8s;
+    color: white;
+}
+.new-card{
+    text-align: center
+}
+.deactiveStar{
+    Width:10.53px;
+    Height:9.58px;
+}
+.discount{
+    background:rgba(255, 104, 104, 1);
+}
+.nav-ourProducts{
+    display: flex;
+    padding-top: 45px;
+    column-gap: 66px;
+    justify-content: center;
+}
+.link-our{
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(194, 194, 194, 1);
+}
+.active{
+    color:rgba(122, 199, 81, 1);
+}
+.page-more-products-container{
+    width: 570px;
+    height: 44px;
+    background: hotpink;
+    margin-left: 600px;
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nextpage{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 161px;
+    height: 100%;
+    color: #fff;
+    padding-left: 30px;
+    background: rgba(122, 199, 81, 1);
+    border: none; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.arrowpage{
+    width: 14px;
+    height: 12.01px;
+    padding-left: 10px;
+}
+.page-more-products{
+    display: flex;
+    width: 266px;
+    height: 29px;
+    background: red;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-more{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+    padding-right: 9px;
+}
+.input-page{
+    width: 58px;
+    height: 22px;
+    text-align: center;
+}
+.max-page{
+    padding-left: 19px;
+}
+.arrow-more{
+    width: 58px;
+    height: 29px;
+    background: darkblue;
+}
+.arrow-more-right{
+    height: 100%;
+    width: 50%;
+    border:none;
 }
 /*
 font-family: 'Rubik', sans-serif;
