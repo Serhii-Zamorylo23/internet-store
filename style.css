@@ -1074,40 +1074,99 @@ span{
     font-size: 36px;
 }
 .customer-Container{
+    display: flex;
     width: 1034px;
     height: 352px;
     background: chartreuse;
     margin: 0 auto;
     margin-top: 50px;
+    align-items: center;
 }
 .content{
-    position: absolute;
     display: flex;
+    position: relative;
     width: 816px;
     height: 312px;
     background: crimson;
     margin: 40px 113px 0 105px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 .coment{
+    display: flex;
     Width:566px;
-    Height:96px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color:rgba(81, 81, 81, 1);
 }
 .circle-customer{
-    display: flex;
     position: absolute;
     width: 88px;
     height: 88px;
     border-radius: 50%;
     bottom: 260px;
+    left: 47%;
 }
 .author{
-    display: block;
+    padding-top: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:rgba(85, 85, 85, 1);
+}
+.text-customer{
+    text-align: center;
+}
+.Position{
+    padding-top: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(81, 81, 81, 1);
+}
+.navigation-customer-left{
+    position: absolute;
+    Width:38px;
+    Height:23.47px;
+    padding-left: 25.33px;
+}
+.navigation-customer-right{
+    position: absolute;
+    Width:38px;
+    Height:23.47px;
+    padding-right: 25.33px;
+    margin: 51%;
+}
+.last-name{
+    text-align: center;
+    padding-top: 115px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: firebrick;
+    margin-top: 56.66px;
+    column-gap: 26.25px;
+    row-gap: 22px;
+}
+.last-content{
+    width: 569.75px;
+    height: 455.28px;
+    background: fuchsia;
+    border-radius: 8px;
+}
+.left-top{
+    background: url(/img/Card.png);
+}
+.taganddate{
+    width: 237px;
+    height: 23px;
+    background: white;
 }
 /*
 font-family: 'Rubik', sans-serif;
