@@ -1159,9 +1159,24 @@ span{
     height: 455.28px;
     background: fuchsia;
     border-radius: 8px;
+    padding-left: 40px;
+    
 }
 .left-top{
     background: url(/img/Card.png);
+    background-repeat: no-repeat;
+}
+.right-top{
+    background:url(/img/Card\ \(1\).png);
+    background-repeat: no-repeat;
+}
+.left-bottom{
+    background:url(/img/Card\ \(2\).png);
+    background-repeat: no-repeat;
+}
+.right-bottom{
+    background:url(/img/Card\ \(3\).png);
+    background-repeat: no-repeat;
 }
 .taganddate{
     width: 237px;
