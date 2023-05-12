@@ -1148,22 +1148,19 @@ span{
 .last{
     display: flex;
     flex-wrap: wrap;
-    width: 1172px;
     background: firebrick;
     align-items: center;
     justify-content: space-between;
     row-gap: 22px;
 }
 .last-card{
-    width: 549.75px;
+    width: 569.75px;
     height: 455.28px;
     background: darkcyan;
-    padding-left: 40px;
+    padding-left: 45px;
 }
 .tagDiv{
     background: white;
-}
-.item1{
 }
 /*
 font-family: 'Rubik', sans-serif;
