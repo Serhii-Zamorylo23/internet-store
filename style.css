@@ -1245,6 +1245,15 @@ footer{
     margin-left: 83px;
     padding-top: 10px;
 }
+.help{
+    list-style: none;
+}
+.store{
+    list-style: none;
+}
+.supports{
+    list-style: none;
+}
 .storecontent{
     margin-left: 180px;
     padding-top: 10px;
