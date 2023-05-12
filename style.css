@@ -1135,8 +1135,7 @@ span{
     position: absolute;
     Width:38px;
     Height:23.47px;
-    padding-right: 25.33px;
-    margin: 51%;
+    margin: 63%;
 }
 .last-name{
     text-align: center;
@@ -1148,19 +1147,226 @@ span{
 .last{
     display: flex;
     flex-wrap: wrap;
-    background: firebrick;
+    width: 1172px;
     align-items: center;
     justify-content: space-between;
     row-gap: 22px;
 }
 .last-card{
-    width: 569.75px;
+    width: 46%;
     height: 455.28px;
-    background: darkcyan;
-    padding-left: 45px;
+    padding-left: 46.1px;
 }
 .tagDiv{
+    display: flex;
+    height: 24px;
     background: white;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    border-radius: 3px;
+}
+.furniture{
+    width: 99.6px;
+}
+.table{
+    width: 75px;
+}
+.Bench{
+    width: 82.83px;
+}
+.tag{
+    Width:13.15px;
+    Height:13.31px;
+}
+.tagtext{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color:rgba(122, 199, 81, 1);
+    text-transform: uppercase;
+}
+.last-buttonAndDate{
+    display: flex;
+    align-items: center;
+    column-gap: 4.93px;
+    margin-top: 252.47px;
+}
+.date{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.item1{
+    background: url(/img/Card\.png);
+    background-repeat:no-repeat;
+}
+.last-Title{
+    padding-top: 20.6px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    color: white;
+}
+.read-more{
+    padding-top: 37.94px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.item2{
+    background: url(/img/Card\ \(1\).png);
+    background-repeat: no-repeat;
+}
+.item3{
+    background: url(/img/Card\ \(2\).png);
+    background-repeat: no-repeat;
+}
+.Chair{
+    width: 82.83px;
+}
+.item4{
+    background: url(/img/Card\ \(3\).png);
+    background-repeat:no-repeat;
+}
+footer{
+    display: flex;
+    height: 299px;
+    background:darkorchid;
+    padding-left: 10px;
+    margin-top: 115px;
+}
+.rightffotercontent{
+    width: 318px;
+}
+.helpcontent{
+    margin-left: 83px;
+    padding-top: 10px;
+}
+.storecontent{
+    margin-left: 180px;
+    padding-top: 10px;
+}
+.supportcontent{
+    margin-left: 180px;
+    padding-top: 10px;
+}
+.icon{
+    display: flex;
+    width: 147px;
+    height: 38.96px;
+    align-items: center;
+    column-gap: 5.21px;
+}
+.footer_icon{
+    Width:31.79px;
+}
+.text-icon{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.aboutUs{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 15px;
+}
+.we-are-on-social-networks{
+    display: flex;
+    width: 173.8px;
+    height: 32.2px;
+    margin-top: 8px;
+    column-gap: 15px;
+}
+.facebook{
+    display: flex;
+    Width:32.2px;
+    Height:32.2px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.facebookIcon{
+    width: 8.24px;
+    height: 16.95px;
+}
+.twitterIcon{
+    width: 16.95px;
+    height: 13.77px;
+}
+
+.istagramIcon{
+    width: 16.1px;
+    height: 16.1px;
+}
+.pintersetIcon{
+    width: 13.04px;
+    height: 16.95px;
+}
+.helpname{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.PrivacyPolicy{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.storename{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Furniture{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.suportname{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Feedbcak{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.foooter{
+    display: flex;
+    justify-content: space-between;
+    background: darkgray;
+    margin-top: 33px;
+}
+.nav{
+    display: flex;
+    column-gap: 53px;
+}
+.Privacy{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(85, 85, 85, 1);
+}
+.Security{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(85, 85, 85, 1);
+}
+.Terms{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(85, 85, 85, 1);
+}
+.funking{
+    color:rgba(85, 85, 85, 1);
 }
 /*
 font-family: 'Rubik', sans-serif;
