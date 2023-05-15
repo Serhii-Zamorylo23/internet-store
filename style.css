@@ -1349,7 +1349,6 @@ footer{
 .foooter{
     display: flex;
     justify-content: space-between;
-    background: darkgray;
     margin-top: 33px;
 }
 .nav{
